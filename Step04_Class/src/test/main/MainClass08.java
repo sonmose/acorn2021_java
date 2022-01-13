@@ -21,6 +21,10 @@ public class MainClass08 {
 		m1.attack();
 		//4. 
 		Pentagon.endWar();
+		
+		//콘솔창에 "안녕하세요"를 출력하는 프로그래밍을 해 보세요.
+		System.out.println("안녕하세요");
+		
 	}
 }
 
