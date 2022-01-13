@@ -19,6 +19,7 @@ public class Car {
 	public void drive() {
 		System.out.println("달려요!");
 	}
+	//public(접근지정장,accessor)void(return type void=어떤값도 리턴하지 않는다)drive(method name)((Type 매개변수)매개변수선언)
 	//엉덩이를 따듯하게 하는 기능
 	public void hotHip() {
 		System.out.println("엉뎅이를 따듯하게 해요");
