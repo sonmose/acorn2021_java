@@ -12,6 +12,7 @@ package test.mypac;
 public class Car {
 	//필드(저장소) 정의하기 
 	public String name;
+	//public(accessor) String(data type) name(field name)
 	public int cc;
 	
 	//달리는 메소드(기능)
