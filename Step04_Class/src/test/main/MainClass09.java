@@ -23,8 +23,13 @@ public class MainClass09 {
 		Cpu cpu=new Cpu();
 		Memory memory=new Memory();
 		HardDisk hardDisk=new HardDisk();
+		/*Cpu cpu=new C
+		 * Memory memory=new M
+		 * HardDisk hardDisk=new H
+		 */
 		
 		Computer com2=new Computer(cpu, memory, hardDisk);
+		//Computer com2=new Computer(C,M,H)
 		com2.playGame();
 		com2.sendEmail("kbs-tv@daum.net");
 	}
