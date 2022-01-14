@@ -18,6 +18,7 @@ public class MemberDto {
 	//생성자는 얼마든지 다중 정의할수 있다. 
 	//다중 정의를 overloading 이라고 한다 
 	public MemberDto() {}
+	// new MemberDto();
 	
 	// 객체를 new 할때 호출되는 생성자
 	// 메소드가 아님
@@ -25,6 +26,7 @@ public class MemberDto {
 	// 생성자의 특징은 리턴 type (void) 가 없고 클래스명과 동일하게 작성해야 한다.
 	// 생성자를 하나라도 만들면 기본 생성자(default) 생성자는 없어진다. 
 	public MemberDto(int num,String name,String addr) {
+		//new MemberDto(1,"XXX","XXX");
 		System.out.println("MemberDto() 생성자가 호출됨!");
 		//생성자로 전달 받은 값을 필드에 저장하기
 		this.num=num;
