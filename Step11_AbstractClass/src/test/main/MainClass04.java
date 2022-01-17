@@ -9,7 +9,7 @@ public class MainClass04 {
 		 *  Weapon type 의 참조값을 얻어내서 w1 이라는 Weapon type 의
 		 *  지역변수에 담기 
 		 */
-		Weapon w1=new Weapon() {
+		Weapon w1=new Weapon() {//class ?(no name)extends Weapon{}
 			@Override
 			public void attack() {
 				System.out.println("아무거나 공격해요!");
