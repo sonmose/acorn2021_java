@@ -23,9 +23,9 @@ public class MainClass07 {
 		//1.
 		List<Car> cars=new ArrayList<Car>();
 		//2.
-		Car c1=new Car("소나타");
-		Car c2=new Car("아반떼");
-		Car c3=new Car("티볼리");
+		Car c1=new Car("BMW");
+		Car c2=new Car("벤츠");
+		Car c3=new Car("아우디");
 		cars.add(c1);
 		cars.add(c2);
 		cars.add(c3);
