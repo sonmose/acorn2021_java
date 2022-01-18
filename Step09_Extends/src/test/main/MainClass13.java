@@ -21,6 +21,5 @@ public class MainClass13 {
 		p1 =(SmartPhone)p2;
 		Object p6=p4;
 		
-		}
 	}
-
+}
