@@ -21,10 +21,10 @@ public class MainClass02 {
 			System.out.println(num2+" 를 "+num1+" 으로 나눈 몫은 "+result);
 			System.out.println(num2+" 를 "+num1+" 으로 나눈 나머지는 "+result2);
 		}catch(NumberFormatException nfe) {
-			//nfe.printStackTrace();
+			//nfe.printStackTrace(); 주석지우고 연습하기
 			System.out.println("숫자 형식으로 입력 하세요.");
 		}catch(ArithmeticException ae) {
-			//ae.printStackTrace();
+			//ae.printStackTrace(); 주석지우고 연습하기
 			System.out.println("어떤 수를 0으로 나눌수는 없어요.");
 		}
 		System.out.println("main 메소드가 종료 됩니다.");
